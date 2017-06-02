@@ -1,0 +1,71 @@
+.nav_bar{
+    display:flex;
+    
+    
+    
+}
+.nav_bar a{
+    display: flex;
+    justify-content: center;
+    margin-top: -8px;
+    margin-right: -8px;
+    text-decoration: none;
+    color: white;
+    
+    
+    
+}
+.nav_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+
+    
+   
+   
+    
+}
+.nav_bar img{
+    width: 23vh;
+    background-color: #F5005B;
+    padding: 17px;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+#join_nav{
+    background-color: #00D5E7;
+    padding: 30px;
+    
+}
+#calender_nav{
+    background-color: #00B7D3;
+    padding: 30px;
+}
+#home_nav{
+    background-color: #00A5BF;
+    padding: 30px;
+}
+h2{
+display: flex;
+background-color: #0B1942;
+color: white;
+font-family:'PT Sans', sans-serif; 
+font-weight: normal;
+padding:8px;
+}
+.home_topic{
+    margin-left: 18px;
+    margin-right: 18px;
+    font-family:'PT Sans', sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+}
+h1{
+    margin-left: 18px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+}
+.half_home{
+    background-color:#0B1942;
+}
