@@ -139,7 +139,130 @@ h1{
 
 /*******medium view********/
 @media (min-width:545px){
-    body{
-        background-color: red;
+     .nav_links{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
     }
+    .nav_bar a{
+        display: flex;
+        align-items: center;
+        flex: 0 1 10%;
+    }
+    .nav_bar{
+        background: #51E3EB;
+        margin-top: -8px;
+        margin-right: -8px;
+    }
+    .nav_bar img{
+        width: 18%;
+    }
+    .calendar_footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .top_flex{
+        display: flex;
+    }
+    .calendar_footer a{
+        display: flex;
+        align-items: center;
+        margin-bottom: -8px;
+        margin-left: -8px;
+        flex: 0 1 10%;
+    }
+    .calendar_footer p{
+        display: flex;
+        margin-top: -8px;
+        margin-bottom: -8px;
+        width: 100%;
+        justify-content: flex-end;
+        
+    }
+    .flex_info{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .pic_profile img{
+        width: 60%;
+        margin-top: 25px;
+    }
+    .typing div{
+        margin-left: -200px;
+    }
+    .typing input{
+        width: 185%;
+    }
+    .password{
+        margin-top: 65px;
+    }
+    .text_box{
+        display: flex;
+        flex-direction: column;
+    }
+    .genres{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .genres div{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+    }
+    legend{
+        margin-bottom: 25px;
+        margin-top: 40px;
+        margin-left: 25px;
+    }
+
+}
+
+
+
+
+
+
+/*******large view********/
+@media (min-width:769px){
+    .typing input{
+        width: 100%;
+    }
+    .typing{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 70%;
+
+    }
+    .typing div{
+        margin:15px;
+        flex: 0 1 57%;
+        
+    }
+    .typing section{
+        margin-top: -240px;
+}
+.flex_info section{
+    width: 63vh;
+
+}
+.genres div{
+    width: 30%;
+}
+.text_box textarea{
+    width: 45%;
+}
+.top_flex{
+    display: flex;
+}
+.pic_profile img{
+    width: 100%;
+}
+
+    
 }

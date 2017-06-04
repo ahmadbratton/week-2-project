@@ -126,7 +126,55 @@ h2{
 
 /*******medium view********/
 @media (min-width:545px){
-    body{
-        background-color: red;
+    .nav_links{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
     }
+    .nav_bar a{
+        display: flex;
+        align-items: center;
+        flex: 0 1 10%;
+    }
+    .nav_bar{
+        background: #51E3EB;
+        margin-top: -8px;
+        margin-right: -8px;
+    }
+    .nav_bar img{
+        width: 18%;
+    }
+    .calendar_footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .calendar_footer a{
+        display: flex;
+        align-items: center;
+        margin-bottom: -8px;
+        margin-left: -8px;
+        flex: 0 1 10%;
+    }
+    .calendar_footer p{
+        display: flex;
+        margin-top: -8px;
+        margin-bottom: -8px;
+        width: 100%;
+        justify-content: flex-end;
+    }
+}
+
+
+
+/*******large view********/
+@media (min-width:769px){
+    .calendar_boxes div{
+        flex: 0 1 13.8%;
+        height: 135px;
+    
+    }
+    
+    
 }
