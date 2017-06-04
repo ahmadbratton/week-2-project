@@ -11,6 +11,7 @@
     margin-right: -8px;
     text-decoration: none;
     color: white;
+    font-family: 'PT Sans', sans-serif;
     
     
     
@@ -46,97 +47,60 @@
     background-color: #00A5BF;
     padding: 30px;
 }
-h2{
-display: flex;
-background-color: #0B1942;
-color: white;
-font-family:'PT Sans', sans-serif; 
-font-weight: normal;
-padding:8px;
-}
-.home_topic{
-    margin-left: 18px;
-    margin-right: 18px;
-    font-family:'PT Sans', sans-serif;
-    line-height: 30px;
-    font-size: 20px;
-}
-h1{
-    margin-left: 18px;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: normal;
-    color: #0B1942;
-}
-.half_home{
-    background-color:#0B1942;
-    padding-bottom: 20px;
-}
 
-.upnext_box h1{
-    color: white;
-    padding-top: 10px;
-    font-size: 40px;
-}
-.rashomon_box{
-    background-color: #E2E2E2;
-    display: flex;
-    margin: 20px;
-    
-}
-.film_content{
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
+h1{
+    color: #0B1942;
+    font-weight: normal;
+    font-size: 45px;
+    margin-left:25px;
     font-family: 'PT Sans', sans-serif;
 }
-.rashomon_box img{
-    height: 40vh;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 60px;
-}
-#points{
-    font-weight: bold;
-    border-top: 1px solid black;
-    padding-top: 20px;
-    width: 28vh;
-}
-ul{
-    list-style: circle;
-    line-height: 30px;
-    margin-top: -10px;
-}
-.rashomon_box a{
-    color: #00B7D3;
-    font-size: 25px;
-    font-weight: normal;
-}
-.poster_box{
-    background-color: #E2E2E2;
-    margin: 20px;
+.calendar{
+    background-color: #0B1942;
+    font-family: 'PT Sans', sans-serif;
+    padding-bottom: 50px;
+    margin-left: -9px;
     
 }
-.posters{
+h2{
+    color: white;
+    font-weight: normal;
+    font-size: 40px;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 25px;
+    padding-top: 35px;
+}
+.calendar_boxes div{
+    display: flex;
+    background-color: white;
+    height: 70px;
+    border: 1px solid #0B1942;
+    flex: 0 1 13.75%;
+}
+.calendar_boxes{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex-basis: 10%;
-    justify-content: space-around;
+}
+.calendar_boxes p{
+    display: flex;
+    background-color: #0B1942;
+    color: white;
     padding: 10px;
-    padding-top: 15px;
+    margin-top: -2px;
+    height: 14px;
 }
-.posters img{
-    width: 25vh;
-}
-.home_footer a{
+
+.calendar_footer a{
     display: flex;
     justify-content: center;
     margin-top: -8px;
     margin-right: -8px;
     text-decoration: none;
     color: white;
+    font-family: 'PT Sans', sans-serif;
 }
-.home_footer p{
+.calendar_footer p{
     display: flex;
     justify-content: center;
     background-color: #51E3EB;
@@ -148,10 +112,17 @@ ul{
     padding: 40px;
 
 }
-.home_footer{
-    margin-right: 8px;
+.calendar_footer{
+    margin-left: -9px;
     height: 100%;
 }
+#box_13{
+    background: #F5005B;
+}
+#box_27{
+    background: #F5005B;
+}
+
 
 /*******medium view********/
 @media (min-width:545px){
@@ -159,5 +130,3 @@ ul{
         background-color: red;
     }
 }
-
-
