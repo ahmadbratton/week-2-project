@@ -4,43 +4,49 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="../css/join.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
     </head>
     <body>
         <nav class="nav_bar">
             <img id="nav_image" src="../images/filmclub.png" alt="film club photo">
+            <div class="nav_links">
             <a id= "home_nav" href="../index.html">HOME</a>
-            <a id= "calender_nav" href="../calendar/calendar.html">CALENDER</a>
+            <a id= "calendar_nav" href="../calendar/calendar.html">CALENDER</a>
             <a id= "join_nav" href="join.html">JOIN</a>
+            </div>
         </nav>
         <h1>Join Film Club</h1>
         <form class="form_info">
             <div class="input_info">
             <div class= "pic_profile">
-                <label for="profilepic">profile picture </label><br>
-                <input type="file" name="profilepic" value="Choose File" >
+                <div class="input_lable">
+                    <label for="profilepic">profile picture </label><br>
+                    <input type="file" name="profilepic" value="Choose File" >
+                </div>
                 <img src="../images/profile-placeholder.png" alt="pic placeholder">
             </div>
             <br>
-            <div class="name">
-                <label for="name_box">name</label><br>
-                <input type="name" name="name_box" value="">
-            </div>
-            <br>
-            <div class="email">
-                <label for="email_box">email</label><br>
-                <input type="email" name="email_box" value="">
-            </div>
-            <br>
-            <div class= "password" >
-                <label for="pass_box">password</label><br>
-                <input type="password" name="pass_box" value="">
-            </div>
-            <br>
-            <div class= "confrim_password" >
-                <label for="confirm_box">confirm password</label><br>
-                <input type="password" name="confirm_box" value="">
+            <div class="typing">
+                <div class="name">
+                    <label for="name_box">name</label><br>
+                    <input type="name" name="name_box" value="">
+                </div>
+                <br>
+                <div class="email">
+                    <label for="email_box">email address</label><br>
+                    <input type="email" name="email_box" value="">
+                </div>
+                <br>
+                <div class= "password" >
+                    <label for="pass_box">password</label><br>
+                    <input type="password" name="pass_box" value="">
+                </div>
+                <br>
+                <div class= "confrim_password" >
+                    <label for="confirm_box">confirm password</label><br>
+                    <input type="password" name="confirm_box" value="">
+                </div>
             </div>
             <br>
             <div class="genres">
@@ -81,9 +87,9 @@
             <br>
             <div class="text_box">
                 <label for="add_input">Additional input</label><br>
-                <input type="text" name="add_info" value="">
+                <textarea rows="5" cols="20"></textarea>
             </div>
-            <div>
+            <div class="submit">
                 <input type="submit" name="joinclub" value="join film club">
             </div>
         </div>
