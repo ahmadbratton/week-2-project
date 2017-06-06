@@ -116,7 +116,7 @@ h1{
     padding: 30px;
     margin-top: -10px;
     color: white;
-    margin-right: -8px;
+    margin-right: -290px;
     margin-bottom: -5px;
     padding: 40px;
 
@@ -152,7 +152,7 @@ h1{
     .nav_bar{
         background: #51E3EB;
         margin-top: -8px;
-        margin-right: -8px;
+        margin-right: -280px;
     }
     .nav_bar img{
         width: 18%;
@@ -162,6 +162,7 @@ h1{
         flex-direction: row;
         justify-content: flex-start;
         width: 100%;
+        
     }
     .top_flex{
         display: flex;
@@ -192,9 +193,10 @@ h1{
     }
     .typing div{
         margin-left: -200px;
+        margin-right: -50px;
     }
     .typing input{
-        width: 185%;
+        width: 45vw;
     }
     .password{
         margin-top: 65px;
@@ -230,7 +232,8 @@ h1{
 /*******large view********/
 @media (min-width:769px){
     .typing input{
-        width: 100%;
+        width: 35vw;
+        
     }
     .typing{
         display: flex;
@@ -240,8 +243,9 @@ h1{
 
     }
     .typing div{
-        margin:15px;
+        margin:20px;
         flex: 0 1 57%;
+        
         
     }
     .typing section{
